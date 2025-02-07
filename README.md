@@ -1,10 +1,10 @@
 # Shell-Programming-Practice
- My shell Programming Codes & Projects 
+ My shell Programming Codes For Practice
 
 ## Download The Codes 
 Follow those Steps
 - Open Terminal and Follow the commands 
-- `sudo git clone `
+- `sudo git clone https://github.com/Istiaq-Alam/Shell-Programming-Practice.git`
 - `cd Shell-Programming-Practice`
 - `cd Build`
 - `sudo chmod +x OS_LabTask.sh`
