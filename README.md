@@ -4,11 +4,21 @@
 ## Download The Codes 
 Follow those Steps
 - Open Terminal and Follow the commands 
-- `sudo git clone https://github.com/Istiaq-Alam/Shell-Programming-Practice.git`
-- `cd Shell-Programming-Practice`
-- `cd Build`
-- `sudo chmod +x OS_LabTask.sh`
-- `./OS_LabTask.sh`
+```bash
+sudo git clone https://github.com/Istiaq-Alam/Shell-Programming-Practice.git
+```
+```bash
+cd Shell-Programming-Practice
+```
+```bash
+cd Build
+```
+ ```bash
+sudo chmod +x OS_LabTask.sh
+```
+```bash
+./OS_LabTask.sh
+```
 
 # Thumbnails : 
 ## Operating System Lab Task 05
