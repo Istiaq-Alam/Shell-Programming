@@ -526,7 +526,7 @@ echo "array : ${fruits[*]}"
 echo ""
 Array;;
 11)
-printf "\t\t\t10. Declaring Associative Array\n"
+printf "\t\t\t11. Declaring Associative Array\n"
 printf "In Shell Code:-\n\n"
 echo 'declare -A person
 person[name]="Alice"
@@ -543,7 +543,7 @@ echo "Person Array Elements : ${person[*]}"
 echo ""
 Array;;
 12)
-printf "\t\t\t11. Accessing Value by key\n"
+printf "\t\t\t12. Accessing Value by key\n"
 printf "In Shell Code:-\n\n"
 echo 'echo ${person[name]}   # Output: Alice
 echo ${person[city]}   # Output: New York'
