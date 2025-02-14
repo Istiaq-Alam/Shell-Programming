@@ -13,7 +13,7 @@ This project is an interactive shell scripting learning tool designed to help be
 ## Installation
 Clone this repository to your local system:
 ```sh
-git clone https://github.com/yourusername/shell-scripting-learning.git
+git clone https://github.com/Istiaq-Alam/Shell-Programming-Practice.git
 ```
 Navigate to the main file directory:
 ```sh
