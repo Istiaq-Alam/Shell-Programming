@@ -1,4 +1,4 @@
-# Shell Scripting Learning Tool
+# Shell Programming Practice Tool
 
 This project is an interactive shell scripting learning tool designed to help beginners understand the basics of shell programming. It provides a menu-driven interface where users can select topics and view syntax along with corresponding output examples.
 
