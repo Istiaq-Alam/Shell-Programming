@@ -3,7 +3,8 @@
 # Function to check packages 
 check_and_install() {
     if ! dpkg -l | grep -q "^ii  $1 "; then
-        echo "$1 is not installed. Installing..."
+        echo "$1 is not installed." 
+        echo "Installing Required Packages..."
         sudo apt update && sudo apt install -y "$1"
     else
         echo "$1 is already installed."
