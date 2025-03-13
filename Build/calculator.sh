@@ -1,4 +1,26 @@
 #!/bin/bash
+
+# Function to check packages 
+check_and_install() {
+    if ! dpkg -l | grep -q "^ii  $1 "; then
+        echo "$1 is not installed. Installing..."
+        sudo apt update && sudo apt install -y "$1"
+    else
+        echo "$1 is already installed."
+    fi
+}
+# installing basic packages
+check_and_install figlet
+check_and_install bc
+check_and_install lolcat
+
+# Confirmation message
+echo "All required packages are installed!"
+echo "Starting Calculator..."
+echo 
+echo
+echo
+
 figlet Calculator | lolcat
 # Function to replace π with its numerical value in the input expression
 replace_pi() {
@@ -29,7 +51,7 @@ run_calculator() {
 }
 
 # Handle Ctrl+C to exit gracefully
-trap "echo -e '\nCalculator exited. Goodbye!'; exit" SIGINT
+trap "echo -e '\nCalculator Terminated. Goodbye!'; exit" SIGINT
 
 # Run the calculator
 run_calculator
