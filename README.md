@@ -6,6 +6,7 @@ This project is an interactive shell scripting learning tool designed to help be
 - Menu-based selection for different shell scripting topics
 - Syntax and output examples for each topic
 - Interactive learning experience
+- Practice Algorithms
 
 ## Prerequisites
 - A Linux-based system or a terminal with Bash installed
