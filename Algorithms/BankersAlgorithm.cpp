@@ -1,16 +1,12 @@
 // Bankers Algorithm
-
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main()
 {
     int p, r ;
-
     cout << "Enter no of processes : ";
     cin >> p;
-
     cout << "Enter no of resources : ";
     cin >> r;
 
@@ -52,16 +48,16 @@ int main()
     {
         for (int j=0; j<r; j++)
         {
-            need[i][j] = mx[i][j] - al[i][j];   //need = max - allocation
+            //need = max - allocation
+            need[i][j] = mx[i][j] - al[i][j];
             cout << need[i][j] << " ";
         }
         cout << endl;
     }
     cout << endl;
 
-
-    int x = 1; // used for while loop
-    int y = 0; // used to check all process is done
+    int x = 1;
+    int y = 0;
     cout << "Safe State : " << endl;
     while (x != 0)
     {

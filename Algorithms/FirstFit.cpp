@@ -1,5 +1,4 @@
 //First Fit
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -9,7 +8,7 @@ int main() {
     cin >> p;
 
     int pSize[p], bSize[p], ans[p];
-    
+
     cout << "\nEnter each process size : ";
     for(int i=0; i<p; i++)
         cin >> pSize[i];
