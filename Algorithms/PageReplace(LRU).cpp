@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
 void print(vector<int> main_mem)
@@ -20,13 +19,13 @@ int victim(int process[], int length, int end, vector<int> main_mem, int max_mem
         for(int j = end-1; j>=0; j--)
         {
             if(main_mem[i] == process[j])
-            {      
+            {
                 //found = true;
 
-                int current_distance = end - j;   
-                //cout << "Distance " << distance << "    " << "Current dis " << current_distance << endl;       
+                int current_distance = end - j;
+                //cout << "Distance " << distance << "    " << "Current dis " << current_distance << endl;
                 if(distance < current_distance)
-                {   
+                {
                     distance = current_distance;
                     page_index = i;
                 }
@@ -34,7 +33,7 @@ int victim(int process[], int length, int end, vector<int> main_mem, int max_mem
                 //cout << "Index is " << page_index << endl;
                 break;
             }
-        }  
+        }
     }
     return page_index;
 }

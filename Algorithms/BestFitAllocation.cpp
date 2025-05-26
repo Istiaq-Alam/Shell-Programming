@@ -39,18 +39,19 @@ void bestFit(int blockSize[], int m, int processSize[], int n)
             blockSize[bestIdx] -= processSize[i];
         }
     }
-    cout << "\n--------------------------------------S--------"<<endl;
-    cout << "|Process No.\t|Process Size\t|Block no.   |\n";
-    cout << "----------------------------------------------"<<endl;
+    cout << "\n-------------------------------------------"<<endl;
+    cout << "|Process No.\t|Process Size\t|Block no.|\n";
+    cout << "-------------------------------------------"<<endl;
     for (int i = 0; i < n; i++)
     {
-        cout << " " << i+1 << "\t\t" << processSize[i] << "\t\t";
+        cout << "| " << i+1 << "\t\t| " << processSize[i] << "\t\t| ";
         if (allocation[i] != -1)
-            cout << allocation[i] + 1;
+            cout << allocation[i] + 1<<"\t  |";
         else
             cout << "Not Allocated";
         cout << endl;
     }
+    cout << "-------------------------------------------"<<endl;
 }
 
 // Driver Method

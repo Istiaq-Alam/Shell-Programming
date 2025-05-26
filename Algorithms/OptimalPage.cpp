@@ -7,7 +7,7 @@ void print(vector<int> main_mem)
     for(auto x: main_mem)
         cout << x << " ";
 
-    cout << "\n\n";
+    cout << "\n";
 }
 
 int victim(int process[], int length, int start, vector<int> main_mem, int max_mem)
@@ -60,7 +60,7 @@ int main()
         {
             if(fnd != main_mem.end())
             {
-                cout << "Page hit for " << process[i] << ".\n";
+                cout << "Page hit for " << process[i] << ":- ";
                 print(main_mem);
                 hit++;
             }
@@ -68,7 +68,7 @@ int main()
             else
             {
                 main_mem.push_back(process[i]);
-                cout << "Page miss for " << process[i] << ".\n";
+                cout << "Page miss for " << process[i] << ":- " ;
                 print(main_mem);
                 miss++;
             }
@@ -79,14 +79,14 @@ int main()
         {
             if(fnd != main_mem.end())
             {
-                cout << "Page hit for " << process[i] << ".\n";
+                cout << "Page hit for " << process[i] << ":- ";
                 print(main_mem);
                 hit++;
             }
 
             else
             {
-                cout << "Page miss for " << process[i] << ".\n";
+                cout << "Page miss for " << process[i] << ":- ";
                 miss++;
 
                 int replace  = victim(process, length, i, main_mem, max_main_mem);
@@ -96,7 +96,7 @@ int main()
         }
     }
 
-    cout << "Total page hit : " << hit << endl;
+    cout << "\nTotal page hit : " << hit << endl;
     cout << "Total page miss : " << miss << endl;
     return 0;
 }
