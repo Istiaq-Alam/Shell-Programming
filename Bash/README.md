@@ -1,6 +1,6 @@
 # Bash Commands Reference for Linux Terminal
 
-This repository contains a comprehensive list of basic Linux bash commands for beginners to get familiar with terminal usage. Each command is provided with its syntax, example, and explanation for ease of learning.
+This repository contains a comprehensive list of basic Linux bash commands for beginners to get familiar with terminal usage. Each command is provided with its syntax, example, output, and explanation for ease of learning.
 
 ---
 
@@ -12,6 +12,7 @@ This repository contains a comprehensive list of basic Linux bash commands for b
 touch Text.txt
 ```
 
+**Output:** No output if successful.
 **Explanation:** Creates a new empty file named `Text.txt`.
 
 ---
@@ -24,6 +25,7 @@ touch Text.txt
 mkdir Lab1
 ```
 
+**Output:** No output if successful.
 **Explanation:** Creates a new directory named `Lab1`.
 
 ---
@@ -34,6 +36,12 @@ mkdir Lab1
 
 ```bash
 pwd
+```
+
+**Output:**
+
+```bash
+/home/user/Lab1
 ```
 
 **Explanation:** Displays the current working directory.
@@ -48,6 +56,7 @@ pwd
 cd Lab1
 ```
 
+**Output:** No output if successful.
 **Explanation:** Changes the current directory to `Lab1`.
 
 ---
@@ -58,6 +67,12 @@ cd Lab1
 
 ```bash
 cat Text.txt
+```
+
+**Output:**
+
+```bash
+Hello, this is a test file.
 ```
 
 **Explanation:** Prints the content of `Text.txt`.
@@ -72,7 +87,8 @@ cat Text.txt
 more Text.txt
 ```
 
-**Explanation:** Views file content one screen at a time.
+**Output:** Displays file content one screen at a time.
+**Explanation:** Views file content page by page.
 
 ---
 
@@ -82,6 +98,12 @@ more Text.txt
 
 ```bash
 ls -a
+```
+
+**Output:**
+
+```bash
+.  ..  .bashrc  Text.txt  Lab1
 ```
 
 **Explanation:** Lists all files, including hidden files (those starting with a dot `.`).
@@ -96,6 +118,12 @@ ls -a
 ls -l
 ```
 
+**Output:**
+
+```bash
+-rw-r--r-- 1 user user 20 Jan 30 14:00 Text.txt
+```
+
 **Explanation:** Displays files with permissions, owners, size, and timestamp.
 
 ---
@@ -108,7 +136,13 @@ ls -l
 ls -l -h
 ```
 
-**Explanation:** Lists files in long format with human-readable file sizes (e.g., KB, MB).
+**Output:**
+
+```bash
+-rw-r--r-- 1 user user 1.1K Jan 30 14:00 Text.txt
+```
+
+**Explanation:** Lists files in long format with human-readable file sizes.
 
 ---
 
@@ -118,6 +152,12 @@ ls -l -h
 
 ```bash
 ls -F
+```
+
+**Output:**
+
+```bash
+Text.txt  Lab1/
 ```
 
 **Explanation:** Appends `/` to directories and `*` to executable files.
@@ -132,19 +172,21 @@ ls -F
 cp Text.txt Copied.txt
 ```
 
+**Output:** No output if successful.
 **Explanation:** Copies `Text.txt` to `Copied.txt`.
 
 ---
 
 ## 12. Remove Files and Directories
 
-**Command:** `rm filename` (for files) | `rmdir directory_name` (for directories)
+**Command:** `rm filename` | `rmdir directory_name`
 
 ```bash
 rm Text2.txt
 rmdir FolderName
 ```
 
+**Output:** No output if successful.
 **Explanation:** Deletes a file or an empty directory.
 
 ---
@@ -157,6 +199,7 @@ rmdir FolderName
 clear
 ```
 
+**Output:** Clears the terminal screen.
 **Explanation:** Clears the terminal screen.
 
 ---
@@ -169,6 +212,7 @@ clear
 man touch
 ```
 
+**Output:** Displays the manual page of the `touch` command.
 **Explanation:** Opens the manual page for the `touch` command.
 
 ---
@@ -179,6 +223,15 @@ man touch
 
 ```bash
 tree Arduino
+```
+
+**Output:**
+
+```bash
+Arduino
+├── sketch.ino
+└── lib
+    └── library.h
 ```
 
 **Explanation:** Displays directory structure in a tree-like format.
@@ -193,6 +246,12 @@ tree Arduino
 locate -b art.jpg
 ```
 
+**Output:**
+
+```bash
+/home/user/Pictures/art.jpg
+```
+
 **Explanation:** Finds file by name (uses an indexed database).
 
 ---
@@ -205,6 +264,7 @@ locate -b art.jpg
 kill 2879
 ```
 
+**Output:** No output if successful.
 **Explanation:** Terminates the process with PID 2879.
 
 ---
@@ -217,6 +277,7 @@ kill 2879
 less Text.txt
 ```
 
+**Output:** Opens file for viewing with navigation keys.
 **Explanation:** Opens file for scrolling; better for large files.
 
 ---
@@ -227,7 +288,14 @@ less Text.txt
 
 ```bash
 who
-dhoami
+whoami
+```
+
+**Output:**
+
+```bash
+user    tty7   2025-01-30 09:00 (:0)
+user
 ```
 
 **Explanation:** `who` shows all logged-in users; `whoami` shows the current user.
@@ -242,6 +310,7 @@ dhoami
 top
 ```
 
+**Output:** Displays a real-time list of processes and system usage.
 **Explanation:** Shows real-time system processes and resource usage.
 
 ---
@@ -254,6 +323,7 @@ top
 chmod 111 Text.txt
 ```
 
+**Output:** No output if successful.
 **Explanation:** Changes file permissions. `111` gives execute permission only.
 
 ---
@@ -266,6 +336,7 @@ chmod 111 Text.txt
 chown kali Text.txt
 ```
 
+**Output:** No output if successful.
 **Explanation:** Changes the owner of `Text.txt` to `kali`.
 
 ---
@@ -276,6 +347,13 @@ chown kali Text.txt
 
 ```bash
 df -h file2
+```
+
+**Output:**
+
+```bash
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1       100G   40G   60G  40% /
 ```
 
 **Explanation:** Shows disk space usage in human-readable format.
