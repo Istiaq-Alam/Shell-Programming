@@ -41,27 +41,27 @@ This repository contains a comprehensive list of basic Linux bash commands for b
 
 ## 1. Create a File
 
-**Command:** `touch filename`
+- **Command:** `touch filename`
 
 ```bash
 touch Text.txt
 ```
 
-**Output:** No output if successful.
-**Explanation:** Creates a new empty file named `Text.txt`.
+- **Output:** No output if successful.
+- **Explanation:** Creates a new empty file named `Text.txt`.
 
 ---
 
 ## 2. Create a Directory
 
-**Command:** `mkdir directory_name`
+- **Command:** `mkdir directory_name`
 
 ```bash
 mkdir Lab1
 ```
 
-**Output:** No output if successful.
-**Explanation:** Creates a new directory named `Lab1`.
+- **Output:** No output if successful.
+- **Explanation:** Creates a new directory named `Lab1`.
 
 ---
 
