@@ -1,11 +1,5 @@
 # Bash Commands Reference for Linux Terminal
 
-This repository contains a comprehensive list of basic Linux bash commands for beginners to get familiar with terminal usage. Each command is provided with its syntax, example, output, and explanation for ease of learning.
-
----
-
-# Bash Commands Reference for Linux Terminal
-
 This repository contains a comprehensive list of basic Linux bash commands for beginners and intermediate users to get familiar with terminal usage. Each command is provided with its syntax, example, output, and explanation for ease of learning.
 
 ---
