@@ -67,188 +67,188 @@ mkdir Lab1
 
 ## 3. Print Working Directory
 
-**Command:** `pwd`
+- **Command:** `pwd`
 
 ```bash
 pwd
 ```
 
-**Output:**
+- **Output:**
 
 ```bash
 /home/user/Lab1
 ```
 
-**Explanation:** Displays the current working directory.
+- **Explanation:** Displays the current working directory.
 
 ---
 
 ## 4. Change Directory
 
-**Command:** `cd directory_name`
+- **Command:** `cd directory_name`
 
 ```bash
 cd Lab1
 ```
 
-**Output:** No output if successful.
-**Explanation:** Changes the current directory to `Lab1`.
+- **Output:** No output if successful.
+- **Explanation:** Changes the current directory to `Lab1`.
 
 ---
 
 ## 5. Display File Contents
 
-**Command:** `cat filename`
+- **Command:** `cat filename`
 
 ```bash
 cat Text.txt
 ```
 
-**Output:**
+- **Output:**
 
 ```bash
 Hello, this is a test file.
 ```
 
-**Explanation:** Prints the content of `Text.txt`.
+- **Explanation:** Prints the content of `Text.txt`.
 
 ---
 
 ## 6. Display File Page-by-Page
 
-**Command:** `more filename`
+- **Command:** `more filename`
 
 ```bash
 more Text.txt
 ```
 
-**Output:** Displays file content one screen at a time.
-**Explanation:** Views file content page by page.
+- **Output:** Displays file content one screen at a time.
+- **Explanation:** Views file content page by page.
 
 ---
 
 ## 7. List All Files Including Hidden
 
-**Command:** `ls -a`
+- **Command:** `ls -a`
 
 ```bash
 ls -a
 ```
 
-**Output:**
+- **Output:**
 
 ```bash
 .  ..  .bashrc  Text.txt  Lab1
 ```
 
-**Explanation:** Lists all files, including hidden files (those starting with a dot `.`).
+- **Explanation:** Lists all files, including hidden files (those starting with a dot `.`).
 
 ---
 
 ## 8. Long Listing Format
 
-**Command:** `ls -l`
+- **Command:** `ls -l`
 
 ```bash
 ls -l
 ```
 
-**Output:**
+- **Output:**
 
 ```bash
 -rw-r--r-- 1 user user 20 Jan 30 14:00 Text.txt
 ```
 
-**Explanation:** Displays files with permissions, owners, size, and timestamp.
+- **Explanation:** Displays files with permissions, owners, size, and timestamp.
 
 ---
 
 ## 9. Human-Readable File Sizes
 
-**Command:** `ls -lh`
+- **Command:** `ls -lh`
 
 ```bash
 ls -l -h
 ```
 
-**Output:**
+- **Output:**
 
 ```bash
 -rw-r--r-- 1 user user 1.1K Jan 30 14:00 Text.txt
 ```
 
-**Explanation:** Lists files in long format with human-readable file sizes.
+- **Explanation:** Lists files in long format with human-readable file sizes.
 
 ---
 
 ## 10. Mark Executables and Directories
 
-**Command:** `ls -F`
+- **Command:** `ls -F`
 
 ```bash
 ls -F
 ```
 
-**Output:**
+- **Output:**
 
 ```bash
 Text.txt  Lab1/
 ```
 
-**Explanation:** Appends `/` to directories and `*` to executable files.
+- **Explanation:** Appends `/` to directories and `*` to executable files.
 
 ---
 
 ## 11. Copy Files and Directories
 
-**Command:** `cp source destination`
+- **Command:** `cp source destination`
 
 ```bash
 cp Text.txt Copied.txt
 ```
 
-**Output:** No output if successful.
-**Explanation:** Copies `Text.txt` to `Copied.txt`.
+- **Output:** No output if successful.
+- **Explanation:** Copies `Text.txt` to `Copied.txt`.
 
 ---
 
 ## 12. Remove Files and Directories
 
-**Command:** `rm filename` | `rmdir directory_name`
+- **Command:** `rm filename` | `rmdir directory_name`
 
 ```bash
 rm Text2.txt
 rmdir FolderName
 ```
 
-**Output:** No output if successful.
-**Explanation:** Deletes a file or an empty directory.
+- **Output:** No output if successful.
+- **Explanation:** Deletes a file or an empty directory.
 
 ---
 
 ## 13. Clear Terminal
 
-**Command:** `clear`
+- **Command:** `clear`
 
 ```bash
 clear
 ```
 
-**Output:** Clears the terminal screen.
-**Explanation:** Clears the terminal screen.
+- **Output:** Clears the terminal screen.
+- **Explanation:** Clears the terminal screen.
 
 ---
 
 ## 14. View Manual Page for Command
 
-**Command:** `man command_name`
+- **Command:** `man command_name`
 
 ```bash
 man touch
 ```
 
-**Output:** Displays the manual page of the `touch` command.
-**Explanation:** Opens the manual page for the `touch` command.
+- **Output:** Displays the manual page of the `touch` command.
+- **Explanation:** Opens the manual page for the `touch` command.
 
 ---
 
@@ -256,13 +256,13 @@ man touch
 
 ## 15. Display Directory Structure
 
-**Command:** `tree directory_name`
+- **Command:** `tree directory_name`
 
 ```bash
 tree Arduino
 ```
 
-**Output:**
+- **Output:**
 
 ```bash
 Arduino
@@ -271,110 +271,110 @@ Arduino
     └── library.h
 ```
 
-**Explanation:** Displays directory structure in a tree-like format.
+- **Explanation:** Displays directory structure in a tree-like format.
 
 ---
 
 ## 16. Find Files
 
-**Command:** `locate -b filename`
+- **Command:** `locate -b filename`
 
 ```bash
 locate -b art.jpg
 ```
 
-**Output:**
+- **Output:**
 
 ```bash
 /home/user/Pictures/art.jpg
 ```
 
-**Explanation:** Finds file by name (uses an indexed database).
+- **Explanation:** Finds file by name (uses an indexed database).
 
 ---
 
 ## 17. Kill a Process
 
-**Command:** `kill PID`
+- **Command:** `kill PID`
 
 ```bash
 kill 2879
 ```
 
-**Output:** No output if successful.
-**Explanation:** Terminates the process with PID 2879.
+- **Output:** No output if successful.
+- **Explanation:** Terminates the process with PID 2879.
 
 ---
 
 ## 18. Scroll File Content
 
-**Command:** `less filename`
+- **Command:** `less filename`
 
 ```bash
 less Text.txt
 ```
 
-**Output:** Opens file for viewing with navigation keys.
-**Explanation:** Opens file for scrolling; better for large files.
+- **Output:** Opens file for viewing with navigation keys.
+- **Explanation:** Opens file for scrolling; better for large files.
 
 ---
 
 ## 19. Who is Logged In
 
-**Command:** `who` and `whoami`
+- **Command:** `who` and `whoami`
 
 ```bash
 who
 whoami
 ```
 
-**Output:**
+- **Output:**
 
 ```bash
 user    tty7   2025-01-30 09:00 (:0)
 user
 ```
 
-**Explanation:** `who` shows all logged-in users; `whoami` shows the current user.
+- **Explanation:** `who` shows all logged-in users; `whoami` shows the current user.
 
 ---
 
 ## 20. View System Resource Usage
 
-**Command:** `top`
+- **Command:** `top`
 
 ```bash
 top
 ```
 
-**Output:** Displays a real-time list of processes and system usage.
-**Explanation:** Shows real-time system processes and resource usage.
+- **Output:** Displays a real-time list of processes and system usage.
+- **Explanation:** Shows real-time system processes and resource usage.
 
 ---
 
 ## 21. Change File Permissions
 
-**Command:** `chmod permissions filename`
+- **Command:** `chmod permissions filename`
 
 ```bash
 chmod 111 Text.txt
 ```
 
-**Output:** No output if successful.
-**Explanation:** Changes file permissions. `111` gives execute permission only.
+- **Output:** No output if successful.
+- **Explanation:** Changes file permissions. `111` gives execute permission only.
 
 ---
 
 ## 22. Change File Owner
 
-**Command:** `chown user filename`
+- **Command:** `chown user filename`
 
 ```bash
 chown kali Text.txt
 ```
 
-**Output:** No output if successful.
-**Explanation:** Changes the owner of `Text.txt` to `kali`.
+- **Output:** No output if successful.
+- **Explanation:** Changes the owner of `Text.txt` to `kali`.
 
 ---
 
