@@ -45,8 +45,8 @@ Follow the on-screen menu to select a topic and learn about shell scripting.
 - Array and Associative Array
 
 ## Thumbnails : 
-## Operating System Lab Task 05
-![Image](https://github.com/user-attachments/assets/29c65aa7-78e0-4691-bd1f-5caa365a6057)
+## Operating System Lab Task 
+![shell - Copy](https://github.com/user-attachments/assets/897e7bda-a8ea-4668-9e8f-30a3789363a8)
 
 ## 2nd Menu options for next Topics
 ![Image](https://github.com/user-attachments/assets/3f4e445d-fb30-420f-9ed2-ff67818b25e1)
