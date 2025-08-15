@@ -620,7 +620,7 @@ esac
 Array
 ;;
 *)
-echo "Wrong Inputed Parameters..."
+echo "Wrong Inputed Parameters..." 
 echo "Process Terminated."
 ;;
 esac
