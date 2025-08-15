@@ -12,9 +12,9 @@ This project is an interactive shell scripting learning tool designed to help be
 - A Linux-based system or a terminal with Bash installed
 
 ## Installation
-Clone this repository to your local system:
+Clone this repository to your local system : [Open terminal on Linux and paste this following Command]
 ```sh
-https://github.com/Istiaq-Alam/Shell-Programming.git
+git clone https://github.com/Istiaq-Alam/Shell-Programming.git
 ```
 Navigate to the main file directory:
 ```sh
