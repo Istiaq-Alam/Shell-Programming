@@ -11,7 +11,7 @@ int main()
     int PS[]={1,2,3};
     int AT[]={1,2,3};
     int BT[]={24,3,3};
-   /* for(i=1; i<=n; i++)
+   /* for(i=1; i<=n; i++) 
     {
         cout << "Enter Arrival Time for P" << i << ": ";
         cin >> AT[i];
