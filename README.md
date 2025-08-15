@@ -14,11 +14,11 @@ This project is an interactive shell scripting learning tool designed to help be
 ## Installation
 Clone this repository to your local system:
 ```sh
-git clone https://github.com/Istiaq-Alam/Shell-Programming-Practice.git
+https://github.com/Istiaq-Alam/Shell-Programming.git
 ```
 Navigate to the main file directory:
 ```sh
-cd Shell-Programming-Practice
+cd Shell-Programming
 cd Build
 ```
 Give execution permission to the script:
